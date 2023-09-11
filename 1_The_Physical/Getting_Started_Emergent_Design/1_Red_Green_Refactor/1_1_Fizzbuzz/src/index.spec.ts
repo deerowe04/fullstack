@@ -8,4 +8,8 @@ describe("fizzbuzz", () => {
     console.log('after');
   });
 
+  it('returns Fizz for 3', () => {
+    expect(fizzbuzz(3)).toEqual("Fizz")
+  });
+
 });
